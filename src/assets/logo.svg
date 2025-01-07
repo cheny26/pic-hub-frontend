@@ -1,0 +1,13 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- 主背景 -->
+  <circle cx="100" cy="100" r="90" fill="#1E293B"/>
+  
+  <!-- 重叠的图片图标 -->
+  <rect x="50" y="65" width="60" height="50" rx="8" fill="#3B82F6" transform="rotate(-10 80 90)"/>
+  <rect x="70" y="85" width="60" height="50" rx="8" fill="#06B6D4" transform="rotate(5 100 110)"/>
+  <rect x="90" y="75" width="60" height="50" rx="8" fill="#0EA5E9"/>
+  
+  <!-- 山形图案（代表图片内容） -->
+  <path d="M95 105 L110 90 L125 105" stroke="white" stroke-width="3" fill="none"/>
+  <circle cx="105" cy="85" r="4" fill="white"/>
+</svg>
