@@ -11,6 +11,7 @@ const myAxios = axios.create({
 // 全局请求拦截器
 myAxios.interceptors.request.use(
   function (config) {
+    console.log('请求为',config)
     // Do something before request is sent
     return config
   },
@@ -23,6 +24,7 @@ myAxios.interceptors.request.use(
 // 全局响应拦截器
 myAxios.interceptors.response.use(
   function (response) {
+    console.log('响应为',response)
     const { data } = response
     // 未登录
     if (data.code === 40100) {

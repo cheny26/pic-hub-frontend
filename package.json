@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "openapi":"node openapi.config.js",
+    "openapi": "node openapi.config.js",
     "build": "run-p type-check \"build-only {@}\" --",
     "preview": "vite preview",
     "build-only": "vite build",
@@ -17,6 +17,7 @@
     "ant-design-vue": "^4.2.6",
     "axios": "^1.7.9",
     "pinia": "^2.3.0",
+    "pinia-plugin-persistedstate": "^4.2.0",
     "vue": "^3.5.13",
     "vue-router": "^4.5.0"
   },

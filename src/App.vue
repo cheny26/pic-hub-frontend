@@ -8,6 +8,5 @@
 import BasicLayout from "@/layouts/BasicLayout.vue";
 </script>
 <style>
-#app {
-}
+
 </style>

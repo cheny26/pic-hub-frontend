@@ -1,4 +1,4 @@
-// import { request } from '@/request';
+// @ts-ignore
 /* eslint-disable */
 import request from '../utils/request'
 
