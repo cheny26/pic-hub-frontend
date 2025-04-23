@@ -109,7 +109,7 @@ const items = computed(() => {
       return {
         key: item.path,
         label: item.name,
-        title: item.path,
+        title: item.name,
       } as ItemType;
     });
 });

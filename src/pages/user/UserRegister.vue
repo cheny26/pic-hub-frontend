@@ -18,7 +18,7 @@
           { min: 8, message: '密码不能小于8位' },
         ]"
       >
-        <a-input-password v-model:value="userRegisterForm.userPassword" placeholder="请输入密码" autocomplete="on">
+        <a-input-password v-model:value="userRegisterForm.userPassword" placeholder="请输入密码" autocomplete="off">
           <template #prefix>
             <LockOutlined class="site-form-item-icon" />
           </template>
@@ -31,7 +31,7 @@
           { min: 8, message: '密码不能小于8位' },
         ]"
       >
-        <a-input-password v-model:value="userRegisterForm.checkPassword" placeholder="请再次输入密码" autocomplete="on">
+        <a-input-password v-model:value="userRegisterForm.checkPassword" placeholder="请再次输入密码" autocomplete="off">
           <template #prefix>
             <LockOutlined class="site-form-item-icon" />
           </template>

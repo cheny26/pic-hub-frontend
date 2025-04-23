@@ -21,7 +21,7 @@
         <a-input-password
           v-model:value="userLoginForm.userPassword"
           placeholder="请输入密码"
-          autocomplete="on"
+          autocomplete="off"
         >
           <template #prefix>
             <LockOutlined class="site-form-item-icon" />
